@@ -158,16 +158,7 @@ header::after{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent);
     z-index: 10
 }
-/*
-.banner::after {
-    content: '';
-    position: relative;
-    display: block;
-    width: 100vw;
-    height: 100px;
-    background: linear-gradient(to bottom, rgb(5, 106, 5), transparent);
-    z-index: 10000
-}*/
+
 .title {
     position: absolute;
     top: 180px;
@@ -380,3 +371,117 @@ footer {
     color: rgb(250, 250, 250);
     font-size: 16px;
 }
+
+
+@media all and (max-width: 800px) {
+    
+    .info {
+        right: 5px;
+        top: 12px;
+    }
+    
+    .info-top {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .info p {
+        margin-bottom: 4px;
+        font-size: 10px;
+        padding: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-left: 4px;
+    }
+
+    .menu {
+        top: 15px;
+        left: 10px;
+        padding: 8px;
+        font-size: 18px;
+    }
+    
+    .menu p {
+        margin-left: 12px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 115px;
+        top: 0;
+        border-radius: 0 0 15px 15px;
+    }
+    
+    .logo img {
+        width: 120px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .logo p {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .banner {
+        width: 100%;
+        height: 600px;
+    }
+
+    .days {
+        font-size: 50px;
+        margin-bottom: -15px;
+    }
+    
+    .month {
+        font-size: 30px;
+    }
+    
+    .arrow-down {
+        text-decoration: none;
+        color: rgb(250, 250, 250);
+        font-size: 50px;
+    }
+
+    .welcome {
+        min-height: 100px;
+        padding-top: 50px;
+    }
+    .welcome h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    
+    .welcome p {
+        width: 70%;
+        font-size: 16px;
+    }
+    
+    .welcome img {
+        width: 380px;
+    }
+    
+    .card {
+        width: 320px;
+        height: 320px;
+        margin: 20px;
+    }
+    
+    .card-title p {
+        font-size: 30px;
+    }
+    
+    .card-title p::before {
+        line-height: 30px;
+    }
+
+    footer {
+        height: 100px;
+    }
+    
+    .copyright {
+        bottom: -100px;
+        font-size: 12px;
+    }
+  }
