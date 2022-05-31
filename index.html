@@ -12,9 +12,13 @@
 
 <body>
     <header class="header">
-        <div class="menu">
-            <a class="burger"><i class="fa fa-bars"></i></a>
-            <p id="menu">Menu</p>
+        <div class="menu" id="menu">
+            <a class="burger" id="menu-closed-icon"><i class="fa fa-bars"></i></a>
+            <p id="menu-closed-text">Menu</p>
+            
+            <a class="burger invisible" id="menu-opened-icon"><i class="fa fa-times"></i></a>
+            <p class="invisible" id="menu-opened-text">Sluit</p>
+            
         </div>
         <div class="logo">
             <p>KATSE</p>
@@ -29,6 +33,9 @@
             <div class="info-bottom">
                 <p>Assenedesteenweg 245b, Zelzate</p>
             </div>
+        </div>
+        <div class="burger-menu" id="burger">
+            <img src="img/footer.png">
         </div>
     </header>
     <section class="banner">
@@ -104,6 +111,7 @@
     </section>
 
     <script src="https://kit.fontawesome.com/07f8823142.js" crossorigin="anonymous"></script>
+    <script src="burger.js"></script>
 </body>
 
 <footer>
