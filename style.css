@@ -167,6 +167,44 @@ header::after{
     filter: blur(5px);
 }
 
+.burger-menu-container {
+    max-width: 800px;
+    margin-left: 200px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.burger-menu-container-column {
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    padding: 24px;
+    line-height: 42px;
+    color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.burger-menu-container-title{
+    color: rgb(84, 72, 160);
+    margin-bottom: 12px;
+}
+
+.burger-menu-container-option{
+    cursor: pointer;
+}
+
+.burger-menu-container-option:hover {
+    border-bottom: 3px solid rgb(250, 250, 250);
+}
+
+
+
 .banner {
     width: 100%;
     height: 100vh;
