@@ -327,7 +327,7 @@ header::after{
     position: absolute;
     text-transform: uppercase;
     color: rgb(250, 250, 250);
-    
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.75));
     font-size: 32px;
     transform: translateY(-48px);
     cursor: default;
@@ -566,6 +566,35 @@ footer {
     transform: none;
 }
 
+
+/* sponsors */
+
+.sponsor-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin-bottom: 100px;
+}
+
+.sponsor-container-title {
+    position: absolute;
+    text-transform: uppercase;
+    color: rgb(250, 250, 250);
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.75));
+    font-size: 32px;
+    transform: translateY(-48px);
+    cursor: default;
+}
+
+.sponsor-container-text {
+    color: rgb(250, 250, 250);
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.75));
+    cursor: default;
+    font-size: 24;
+    font-weight: 600;
+}
+
 @media all and (max-width: 1080px) {
     
     .info {
@@ -702,6 +731,6 @@ footer {
     
     .timetable-option {
         padding: 4px;
-        margin: 6px;
+        margin: 4px;
     }
   }
