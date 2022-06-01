@@ -365,6 +365,29 @@ header::after{
     transform: rotate(30deg);
 }
 
+.card-datetime {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(250, 250, 250);
+    z-index: 13;
+    font-weight: 700;
+    text-transform: uppercase;
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.75));
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.card-date {
+    width: 90px;
+}
+
 .card-title {
     width: 100%;
     height: 75px;
@@ -396,6 +419,14 @@ header::after{
     -webkit-background-clip: text;
     background-clip: text;
     opacity: 0.3;
+}
+
+.card-title-smaller p{
+    font-size: 24px;
+}
+
+.card-title-smaller p::before{
+    line-height: 24px;
 }
 /*
 .card-1 img {
@@ -591,6 +622,14 @@ footer {
     
     .card-title p::before {
         line-height: 30px;
+    }
+
+    .card-title-smaller p{
+        font-size: 20px;
+    }
+    
+    .card-title-smaller p::before{
+        line-height: 20px;
     }
 
     footer {
