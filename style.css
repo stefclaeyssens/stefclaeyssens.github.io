@@ -477,7 +477,7 @@ header::after{
 }
 
 footer {
-    height: 150px;
+    height: 100px;
     background: rgb(12,74,25);
     background: linear-gradient(113deg, rgba(12,74,25,1) 0%, rgba(121,139,39,1) 100%);
 }
@@ -489,7 +489,7 @@ footer {
 
 .copyright {
     position: absolute;
-    bottom: -130px;
+    bottom: -90px;
     left: 50%;
     transform: translate(-50%);
     color: rgb(250, 250, 250);
