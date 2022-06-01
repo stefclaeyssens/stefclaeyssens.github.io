@@ -691,4 +691,17 @@ footer {
         bottom: -100px;
         font-size: 12px;
     }
+
+    .timetable-options-container {
+        margin-top: 160px;
+    }
+    
+    .timetable-options {
+        font-size: 10px;
+    }
+    
+    .timetable-option {
+        padding: 4px;
+        margin: 6px;
+    }
   }
