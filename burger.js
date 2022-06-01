@@ -19,5 +19,5 @@ document.getElementById("menu").addEventListener('click', function (event) {
     closedtext.classList.add("invisible");
     openimage.classList.remove("invisible");
     opentext.classList.remove("invisible");
-});
+})
 
