@@ -504,7 +504,7 @@ footer {
 /* Line-Up */
 
 .line-up-info {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 124px;
     display: flex;
     justify-content: center;
@@ -515,7 +515,7 @@ footer {
     width: 60%;
     text-align: center;
     color: rgb(250, 250, 250);
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.75));
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.75));
 }
 
 .line-up-info-text h2 {
@@ -593,6 +593,12 @@ footer {
     cursor: default;
     font-size: 24;
     font-weight: 600;
+}
+
+/* tropical terras */
+
+.terras-card {
+    cursor: default;
 }
 
 @media all and (max-width: 1080px) {
