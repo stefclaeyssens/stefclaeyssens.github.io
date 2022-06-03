@@ -501,18 +501,29 @@ footer {
 
 .copyright {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     color: rgb(250, 250, 250);
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 8px;
 }
 
-.copyright p {
-    padding: 12px;
+.copyright-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
-.copyright a {
+.copyright-part p {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.copyright-part a {
     text-decoration: none;
     color: rgb(250, 250, 250);
+    text-align: center;
 }
 
 .footer-contact {
@@ -520,10 +531,6 @@ footer {
     flex-direction: column;
     text-align: start;
     color: rgb(250, 250, 250);
-}
-
-.footer-contact-title {
-    font-size: 18px;
 }
 
 .footer-contact-content {
@@ -838,5 +845,9 @@ footer {
         flex-direction: column;
         text-align: center;
         color: rgb(250, 250, 250);
+    }
+
+    .copyright {
+        font-size: 10px;
     }
   }
