@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang='nl'>
+
+<head>
+    <title>Katse Feesten - Timetable</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/KF_oog_icon.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu" id="menu">
+            <a class="burger" id="menu-closed-icon"><i class="fa fa-bars"></i></a>
+            <p id="menu-closed-text">Menu</p>
+
+            <a class="burger invisible" id="menu-opened-icon"><i class="fa fa-times"></i></a>
+            <p class="invisible" id="menu-opened-text">Sluit</p>
+
+        </div>
+        <div class="logo">
+            <p>KATSE</p>
+            <a href="index"><img class="logo-image" src="img/KF_ogen.png"></a>
+            <p>FEESTEN</p>
+        </div>
+        <div class="info">
+            <div class="info-top">
+                <p>4 t.e.m. 8 Augustus</p>
+                <p>Scoutsterrein</p>
+            </div>
+            <div class="info-bottom">
+                <p>Assenedesteenweg 245b, Zelzate</p>
+            </div>
+        </div>
+        <div class="burger-menu" id="burger">
+            <div class="burger-menu-container">
+                <div class="burger-menu-container-column">
+                    <div class="burger-menu-container-title">
+                        <p>Programma</p>
+                    </div>
+                    <div class="burger-menu-container-option">
+                        <a href="lineup">
+                            <p>Line-Up</p>
+                        </a>
+                        <p class="active-route">Timetable</p>
+                        <a href="comedy">
+                            <p>Comedy - Tickets</p>
+                        </a>
+                        <a href="tropicalterras">
+                            <p>Tropical Terras</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="burger-menu-container-column">
+                    <div class="burger-menu-container-title">
+                        <p>Over</p>
+                    </div>
+                    <div class="burger-menu-container-option">
+                        <a href="info">
+                            <p>Info</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="burger-menu-container-column">
+                    <div class="burger-menu-container-title">
+                        <p>Partners</p>
+                    </div>
+                    <div class="burger-menu-container-option">
+                        <a href="sponsors">
+                            <p>Sponsors</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="img/footer.png">
+        </div>
+    </header>
+    <section class="timetable-options-container">
+        <div class="timetable-options">
+            <p id="vrijdag" class="timetable-option">Vrijdag</p>
+            <p id="zaterdag" class="timetable-option">Zaterdag</p>
+            <p id="zondag" class="timetable-option">Zondag</p>
+            <p id="maandag" class="timetable-option">Maandag</p>
+            <p id="dinsdag" class="timetable-option">Dinsdag</p>
+        </div>
+    </section>
+
+    <section class="card-container" id="Menu">
+        <h1 class="card-container-title">Timetable</h1>
+        <h2 class="card-container-subtitle">Coming Soon</h2>
+
+        <div class="card-inner-container">
+
+            <!--
+            <div class="card card-15 vrijdag">
+                <img class="card-image" src="img/semmer-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Vrijdag 05 Aug</p>
+                    <p class="card-time">18u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Semmer">Semmer</p>
+                </div>
+            </div>
+            <div class="card card-19 vrijdag">
+                <img class="card-image" src="img/amberbroos-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Vrijdag 05 Aug</p>
+                    <p class="card-time">20u30</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Amber Broos">Amber Broos</p>
+                </div>
+            </div>
+            <div class="card card-16 vrijdag">
+                <img class="card-image" src="img/davelambert-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Vrijdag 05 Aug</p>
+                    <p class="card-time">22u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Dave Lambert">Dave Lambert</p>
+                </div>
+            </div>
+            <div class="card card-17 vrijdag">
+                <img class="card-image" src="img/mistertva-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Vrijdag 05 Aug</p>
+                    <p class="card-time">00u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Mister TVA">Mister TVA</p>
+                </div>
+            </div>
+            <div class="card card-9 vrijdag">
+                <img class="card-image" src="img/skyve-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Vrijdag 05 Aug</p>
+                    <p class="card-time">02u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Skyve">Skyve</p>
+                </div>
+            </div>
+            <div class="card card-18 zaterdag">
+                <img class="card-image" src="img/kinderspeeldorp-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zaterdag 06 Aug</p>
+                    <p class="card-time">14u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Kinderspeeldorp">Kinderspeeldorp</p>
+                </div>
+            </div>
+            <div class="card card-14 zaterdag">
+                <img class="card-image" src="img/stoneageromeos-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zaterdag 06 Aug</p>
+                    <p class="card-time">20u30</p>
+                </div>
+                <div class="card-title card-title-smaller">
+                    <p data-text="Stoneage Romeos">Stoneage Romeos</p>
+                </div>
+            </div>
+            <div class="card card-13 zaterdag">
+                <img class="card-image" src="img/petervanpraag-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zaterdag 06 Aug</p>
+                    <p class="card-time">22u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Peter Van Praag">Peter Van Praag</p>
+                </div>
+            </div>
+            <div class="card card-6 zaterdag">
+                <img class="card-image" src="img/sounder-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zaterdag 06 Aug</p>
+                    <p class="card-time">02u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Sounder">Sounder</p>
+                </div>
+            </div>
+            <div class="card card-23 zondag">
+                <img class="card-image" src="img/humangadanga-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zondag 07 Aug</p>
+                    <p class="card-time">16u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Humanga Danga">Humanga Danga</p>
+                </div>
+            </div>
+            <div class="card card-4 zondag">
+                <img class="card-image" src="img/wildcats-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zondag 07 Aug</p>
+                    <p class="card-time">18u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="The Wildcats">The Wildcats</p>
+                </div>
+            </div>
+            <div class="card card-7 zondag">
+                <img class="card-image" src="img/proyecto-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zondag 07 Aug</p>
+                    <p class="card-time">20u00</p>
+                </div>
+                <div class="card-title card-title-smaller">
+                    <p data-text="Proyecto Secreto">Proyecto Secreto</p>
+                </div>
+            </div>
+            <div class="card card-3 zondag">
+                <img class="card-image" src="img/merdantaplak-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zondag 07 Aug</p>
+                    <p class="card-time">22u00</p>
+                </div>
+                <div class="card-title card-title-smaller">
+                    <p data-text="Merdan Taplak Orkestar">Merdan Taplak Orkestar</p>
+                </div>
+            </div>
+            <div class="card card-11 zondag">
+                <img class="card-image" src="img/flavourdrop-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zondag 07 Aug</p>
+                    <p class="card-time">23u30</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Flavour Drop">Flavour Drop</p>
+                </div>
+            </div>
+            <div class="card card-24 zondag">
+                <img class="card-image" src="img/audiowave-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Zondag 07 Aug</p>
+                    <p class="card-time">01u30</p>
+                </div>
+                <div class="card-title card-title-smaller">
+                    <p data-text="Audiowave Feat MC Rim">Audiowave Feat MC Rim</p>
+                </div>
+            </div>
+            <div class="card card-10 maandag">
+                <img class="card-image" src="img/localpeople-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Maandag 08 Aug</p>
+                    <p class="card-time">18u30</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Local People">Local People</p>
+                </div>
+            </div>
+            <div class="card card-2 maandag">
+                <img class="card-image" src="img/ameliealbrecht-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Maandag 08 Aug</p>
+                    <p class="card-time">20u30</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Amelie Albrecht">Amelie Albrecht</p>
+                </div>
+            </div>
+            <div class="card card-5 maandag">
+                <img class="card-image" src="img/gili-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Maandag 08 Aug</p>
+                    <p class="card-time">20u30</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Gili">Gili</p>
+                </div>
+            </div>
+            <div class="card card-12 maandag">
+                <img class="card-image" src="img/koendewulf-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Maandag 08 Aug</p>
+                    <p class="card-time">20u30</p>
+                </div>
+                <div class="card-title card-title-smaller">
+                    <p data-text="Koen Dewulf (MC)">Koen Dewulf (MC)</p>
+                </div>
+            </div>
+            <div class="card card-20 maandag">
+                <img class="card-image" src="img/stijnverdegem-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Maandag 08 Aug</p>
+                    <p class="card-time">20u30</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Stijn Verdegem">Stijn Verdegem</p>
+                </div>
+            </div>
+            <div class="card card-8 dinsdag">
+                <img class="card-image" src="img/925-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Dinsdag 09 Aug</p>
+                    <p class="card-time">19u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="The 925">The 925</p>
+                </div>
+            </div>
+            <div class="card card-22 dinsdag">
+                <img class="card-image" src="img/crooked-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Dinsdag 09 Aug</p>
+                    <p class="card-time">21u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Crooked Steps">Crooked Steps</p>
+                </div>
+            </div>
+            <div class="card card-1 dinsdag">
+                <img class="card-image" src="img/absyntheminded-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Dinsdag 09 Aug</p>
+                    <p class="card-time">23u00</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Absynthe Minded">Absynthe Minded</p>
+                </div>
+            </div>
+            <div class="card card-21 dinsdag">
+                <img class="card-image" src="img/seghers-square.png">
+                <div class="card-datetime">
+                    <p class="card-date">Dinsdag 09 Aug</p>
+                    <p class="card-time">00u30</p>
+                </div>
+                <div class="card-title">
+                    <p data-text="Seghers">Seghers</p>
+                </div>
+            </div>
+
+
+        -->
+
+        </div>
+
+
+    </section>
+
+    <!--
+    <section class="bottom" id="bottom">
+        <img src="img/footer.png">
+    </section>-->
+
+    <script src="https://kit.fontawesome.com/07f8823142.js" crossorigin="anonymous"></script>
+    <script src="burger.js"></script>
+    <script src="timetable.js"></script>
+</body>
+
+<footer>
+    <img src="img/2022_KF_IllustratieWeb_72dpi.png">
+    <div class="footer-content">
+        <div class="footer-contact">
+            <p class="footer-contact-content">
+                Katse Feesten vzw <br>
+                Assenedesteenweg 245b <br>
+                9060 Zelzate <br>
+                katsefeesten@live.be <br>
+            </p>
+        </div>
+        <div class="copyright">
+            <div class="copyright-part">
+                <p>© Katse Feesten 2022</p>
+                <!--
+            <p>|</p>
+            <a href="privacyverklaringKF.pdf" download><p>Privacyverklaring</p></a>
+            <p></p>-->
+            </div>
+            <div class="copyright-part">
+                <p>Webdesign by Stef Claeyssens</p>
+                <p>|</p>
+                <p>Graphics by Fiebe De Muynck</p>
+            </div>
+        </div>
+        <div class="footer-contact">
+            <p class="footer-contact-content">
+                <a href="https://www.facebook.com/KatseFeesten/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/katsefeesten/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/watch?v=4U7ypuLMyf4"><i class="fab fa-youtube"></i></a>
+                <a href="https://mobile.twitter.com/katsefeesten"><i class="fab fa-twitter"></i></a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</html>
