@@ -1094,5 +1094,9 @@ footer img {
     .sponsor-card-inner-container {
         max-width: none;
     }
+    .cardholder {
+        width: 363px;
+        height: 287px;
+    }
 
   }
