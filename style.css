@@ -684,6 +684,36 @@ footer img {
     transform: none;
 }
 
+.timetable-container {
+    width: 40%;
+    color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.75));
+}
+
+.timetable-container-section-yellow {
+    color: rgba(238,206,65,1);
+}
+
+.timetable-container-section-title, .timetable-container-section-artist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dotted {
+    margin: 0 auto;
+    position: relative;
+}
+
+.dotted:before {
+    content: '';
+    position: absolute;
+    bottom: 0.2rem;
+    width: 100%;
+    height: 0;
+    border-bottom: 2px dotted;
+}
 
 /* comedy */
 
@@ -737,6 +767,7 @@ footer img {
     justify-content: center;
     z-index: 10;
     margin-bottom: 100px;
+    
 }
 
 .sponsor-container-title {
@@ -749,12 +780,21 @@ footer img {
     cursor: default;
 }
 
+.sponsor-container-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+}
+
 .sponsor-container-text {
     color: rgb(250, 250, 250);
     filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.75));
     cursor: default;
     font-size: 24;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .sponsor-card-inner-container {
@@ -762,7 +802,6 @@ footer img {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 48px;
-    max-width: 80%;
 }
 
 .sponsor-card {
@@ -772,6 +811,9 @@ footer img {
     height: 190px;
     margin: 12px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     /*
     background-color: white;
@@ -781,16 +823,46 @@ footer img {
 }
 
 .sponsor-card-big {
-    width: 380px;
+    width: 330px;
+    height: 330px;
     transition: transform 150ms ease-in-out;
+    
 }
 
-.sponsor-card-big:hover {
+.sponsor-card:hover {
     transform: scale(1.03);
 }
 
 .sponsor-card-white {
     background-color: #fff;
+}
+
+.sponsor-card-green {
+    background-image: linear-gradient(to bottom,  #fff 50%, #009140 50%);
+}
+
+.sponsor-card-maroon {
+    background-image: linear-gradient(to bottom,  #fff 50%, #590b19 50%);
+}
+
+.sponsor-card-olive {
+    background-color: #7ab69a;
+}
+
+.sponsor-card-grey {
+    background-color: #e8e8e0;
+}
+
+.sponsor-card-black {
+    background-color: #000001;
+}
+
+.sponsor-card-darkblue {
+    background-color: #182132;
+}
+
+.sponsor-card-brown {
+    background-color: #342111;
 }
 
 .sponsor-card img {
@@ -1052,6 +1124,10 @@ footer img {
         margin: 4px;
     }
 
+    .timetable-container {
+        width: 90%;
+    }
+
     footer {
         height: 350px;
     }
@@ -1084,19 +1160,20 @@ footer img {
         margin-bottom: 50px;
     }
     .sponsor-card {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         margin: 8px;
     }
     .sponsor-card-big {
-        width: 320px;
+        width: 300px;
+        height: 300px;
     }
     .sponsor-card-inner-container {
         max-width: none;
     }
     .cardholder {
-        width: 307px;
-        height: 243px;
+        width: 333px;
+        height: 263px;
     }
 
   }
