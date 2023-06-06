@@ -640,6 +640,10 @@ footer img {
     height: 72px;
 }
 
+.spacer-timetable {
+    height: 0px;
+}
+
 
 /*Timetable*/
 
@@ -871,6 +875,10 @@ footer img {
     object-fit: fill;
     /*transition: transform 330ms ease-in-out;*/
     width: 100%;
+}
+
+.sponsor-card-small-img img {
+    width: 85%;
 }
 
 /* tropical terras */
@@ -1174,6 +1182,10 @@ footer img {
     .cardholder {
         width: 333px;
         height: 263px;
+    }
+
+    .spacer-timetable {
+        height: 250px;
     }
 
   }
