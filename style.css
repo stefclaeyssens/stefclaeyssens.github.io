@@ -661,6 +661,7 @@ footer img {
     padding-bottom: 30px;
     padding-left: 30px;
     transform: rotate(-2deg);
+    z-index: 1001;
 }
 
 .modal-content-image img {
@@ -668,9 +669,7 @@ footer img {
     border-radius: 25px;
     overflow: hidden;
     width: 450px;
-    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    z-index: 1001;
 }
 
 .modal-content-text {
@@ -705,6 +704,7 @@ footer img {
     width: 100%;
     opacity: 0.3;
     filter: blur(5px);
+    z-index: 1000;
 }
 
 
