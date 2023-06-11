@@ -926,7 +926,12 @@ footer img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    width: 100%;
+}
+
+.sponsor-card-inner-container-biggest-section {
+    display: flex;
+    flex-direction: row;
 }
 
 .sponsor-card-inner-container-smallest {
@@ -1336,6 +1341,9 @@ footer img {
     }
     .sponsor-card-inner-container {
         max-width: none;
+    }
+    .sponsor-card-inner-container-biggest-section {
+        flex-direction: column;
     }
     .cardholder {
         width: 333px;
