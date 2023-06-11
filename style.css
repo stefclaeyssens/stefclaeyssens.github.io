@@ -914,9 +914,26 @@ footer img {
 
 .sponsor-card-inner-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+}
+
+.sponsor-card-inner-container-biggest {
+
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 48px;
+    align-items: center;
+    max-width: 800px;
+}
+
+.sponsor-card-inner-container-smallest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .sponsor-card {
@@ -1269,8 +1286,8 @@ footer img {
     }
 
     .modal-content {
-        width: 360px;
-        height: 720px;
+        width: 340px;
+        height: 680px;
         flex-direction: column;
     }
 
@@ -1283,7 +1300,7 @@ footer img {
     }
 
     .modal-content-text {
-        width: 320px;
+        width: 300px;
         height: 360px;
         padding-left: 10px;
         padding-top: 0px;
