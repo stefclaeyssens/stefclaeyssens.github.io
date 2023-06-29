@@ -1002,6 +1002,11 @@ footer img {
     background-color: #342111;
 }
 
+.sponsor-card-darkgrey {
+    background-color: #231F20;
+}
+
+
 .sponsor-card img {
     z-index: 12;
     overflow: hidden;
