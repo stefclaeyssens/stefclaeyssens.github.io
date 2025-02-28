@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  background-image: url("admiral_freebee_background.jpg");
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  /* background: white; */
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.container-title {
+  color: #ffffff;
+}
+
+#drinks-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.drink {
+  display: flex;
+  flex-direction: row; /* Aligns items in a row */
+  align-items: center;
+  justify-content: space-between; /* Ensures spacing */
+  padding: 10px 15px;
+  background: transparent;
+  color: white;
+  border: solid darkred 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  text-align: left;
+  width: 100%; /* Ensures full button width */
+}
+
+.drink img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  object-fit: contain;
+  margin-left: 10px; /* Adds spacing between text and image */
+}
+
+.drink:hover {
+  background: darkred;
+}
+
+
+
+.order-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 160px;
+}
+
+.total {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 40px);
+  background: black; /* Matches the page background */
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid darkred;
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+
+
+#clear-btn {
+  background: transparent;
+  color: white;
+  border: solid darkred 2px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+  height: min-content;
+}
+
+#clear-btn:hover {
+  background: darkred;
+}
+
+#selected-drinks {
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+#selected-drinks li {
+  /* background: #eee; */
+  /* margin: 5px 0; */
+  /* padding: 10px; */
+  /* border-radius: 5px; */
+  font-size: 16px;
+  text-align: left;
+}

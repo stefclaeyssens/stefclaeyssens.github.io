@@ -1,0 +1,14 @@
+[
+  { "name": "Coca Cola", "price": 2, "image": "coca_cola.png"  },
+  { "name": "Coca Cola Zero", "price": 2, "image": "coca_cola.png"  },
+  { "name": "Fanta", "price": 2, "image": "coca_cola.png"  },
+  { "name": "Jupiler", "price": 2, "image": "coca_cola.png"  },
+  { "name": "Plat Water", "price": 2.5, "image": "coca_cola.png"  },
+  { "name": "Bruis Water", "price": 2.5, "image": "coca_cola.png"  },
+  { "name": "Duvel", "price": 3, "image": "coca_cola.png"  },
+  { "name": "Fuze Tea", "price": 3, "image": "coca_cola.png"  },
+  { "name": "Augustijn Blond", "price": 2, "image": "coca_cola.png"  },
+  { "name": "Fourchette", "price": 1.5, "image": "coca_cola.png"  },
+  { "name": "Bionina Ginger", "price": 2.5, "image": "coca_cola.png"  },
+  { "name": "Bionina Lemon", "price": 2.5, "image": "coca_cola.png"  }
+]
